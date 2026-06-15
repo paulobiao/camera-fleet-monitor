@@ -1,0 +1,58 @@
+# ===== Secrets & Credentials (NEVER commit these) =====
+*.pem
+*.key
+*.crt
+*.cert
+certs/
+secrets/
+.env
+.env.*
+!.env.example
+aws-credentials*
+*credentials*
+
+# ===== Terraform =====
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+*.egg-info/
+.pytest_cache/
+
+# ===== Node / Next.js (dashboard) =====
+node_modules/
+.next/
+out/
+dist/
+build/
+*.log
+npm-debug.log*
+
+# ===== OS & Editor =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
